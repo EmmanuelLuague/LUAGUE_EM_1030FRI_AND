@@ -1,5 +1,6 @@
 package com.example.luaguecalculator
 
+import android.annotation.SuppressLint
 import android.os.Bundle
 import android.widget.Button
 import android.widget.EditText
@@ -36,6 +37,7 @@ class MainActivity : AppCompatActivity() {
         findViewById<Button>(R.id.btnDivide).setOnClickListener { calculate("/") }
     }
 
+    @SuppressLint("SetTextI18n")
     private fun calculate(operation: String) {
         val num1 = etNumber1.text.toString().toDoubleOrNull()
         val num2 = etNumber2.text.toString().toDoubleOrNull()
