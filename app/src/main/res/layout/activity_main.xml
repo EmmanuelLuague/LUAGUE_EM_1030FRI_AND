@@ -11,14 +11,14 @@
         android:id="@+id/etNumber1"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:hint="Enter first number"
+        android:hint="@string/hint1"
         android:inputType="numberDecimal" />
 
     <EditText
         android:id="@+id/etNumber2"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:hint="Enter second number"
+        android:hint="@string/hint2"
         android:inputType="numberDecimal" />
 
     <RelativeLayout
@@ -30,14 +30,14 @@
             android:id="@+id/btnAdd"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="+"
+            android:text="@string/plus_button"
             android:layout_alignParentStart="true"/>
 
         <Button
             android:id="@+id/btnSubtract"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="-"
+            android:text="@string/minus_btn"
             android:layout_toEndOf="@id/btnAdd"
             android:layout_marginStart="10dp"/>
 
@@ -45,7 +45,7 @@
             android:id="@+id/btnMultiply"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="*"
+            android:text="@string/times_btn"
             android:layout_toEndOf="@id/btnSubtract"
             android:layout_marginStart="10dp"/>
 
@@ -53,7 +53,7 @@
             android:id="@+id/btnDivide"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="/"
+            android:text="@string/divide_btn"
             android:layout_toEndOf="@id/btnMultiply"
             android:layout_marginStart="10dp"/>
     </RelativeLayout>
@@ -62,7 +62,7 @@
         android:id="@+id/tvResult"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Result: "
+        android:text="@string/result"
         android:textSize="24sp"
         android:layout_marginTop="16dp"/>
 </LinearLayout>

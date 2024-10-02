@@ -1,3 +1,10 @@
 <resources>
     <string name="app_name">LuagueCalculator</string>
+    <string name="hint1">Enter first number</string>
+    <string name="hint2">Enter second number</string>
+    <string name="plus_button">+</string>
+    <string name="minus_btn">-</string>
+    <string name="times_btn">*</string>
+    <string name="divide_btn">/</string>
+    <string name="result">Result:</string>
 </resources>
